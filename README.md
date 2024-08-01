@@ -37,7 +37,7 @@ PyCommerce is an e-commerce platform developed using Django and Python. It is a 
     - Settings
     - Users
     - Localisation
-        - [ ] Store Location
+        - [x] Store Location
         - [x] Languages
         - [x] Currencies
         - [x] Stock/Order/Subscription/Return Status
