@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django_jsonform',
     'master',
     'customer',
+    'catalog',
 ]
 
 MIDDLEWARE = [
