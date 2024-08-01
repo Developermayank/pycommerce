@@ -1,2 +1,49 @@
 # pycommerce
-PyCommerce is an e-commerce platform developed using Django and Python.
+PyCommerce is an e-commerce platform developed using Django and Python. It is a python django project based on Opencart Ecommerce Platform.
+
+### Backend Module Completed
+- Dashboard
+- Catalog
+    - [ ] Category
+    - [ ] Product
+    - [ ] Subscription Plans
+    - [x] Filters
+    - [x] Attributes
+    - [x] Options
+    - [ ] Manufacturer
+    - [ ] Downloads
+    - [ ] Reviews
+    - [ ] Information
+- Extensions
+- Design
+    - [ ] Layout
+    - [ ] Theme Editor
+    - [ ] Banner
+    - [ ] SEO Url
+- Sales
+    - [ ] Order
+    - [ ] Subscription
+    - [ ] Return
+    - [ ] Gift Vouchers
+- Customers
+    - [ ] Customer
+    - [x] Customer Group
+- Marketing
+    - [ ] Affiliate
+    - [ ] Marketing
+    - [ ] Coupons
+    - [ ] Mail
+- System
+    - Settings
+    - Users
+    - Localisation
+        - [ ] Store Location
+        - [x] Languages
+        - [x] Currencies
+        - [x] Stock/Order/Subscription/Return Status
+        - [x] Countries
+        - [x] Zones/Geo Zones
+        - [x] Taxes
+        - [x] Length/Weight Classes
+        - [x] Address Format
+- Report
