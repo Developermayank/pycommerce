@@ -3,6 +3,24 @@ from customer.models import CustomerGroup
 
 # Create your models here.
 
+class StoreLocation(models.Model):
+    name = models.CharField(max_length=255)
+    address = models.TextField()
+    telephone = models.CharField(max_length=15, blank=True)
+    geocode = models.CharField(max_length=15, blank=True)
+    image = models.ImageField(upload_to="uploads/%Y/%m/%d", blank=True)
+    opening_time = models.TextField(blank=True)
+    comment = models.TextField(blank=True)
+    status = models.BooleanField(default=True)
+
+    class Meta:
+        verbose_name = 'Store Location'
+        verbose_name_plural = 'Store Locations'
+
+    def __str__(self):
+        return self.name
+
+
 class Language(models.Model):
     name = models.CharField(max_length=50)
     code = models.CharField(max_length=8)

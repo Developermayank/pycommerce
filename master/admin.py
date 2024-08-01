@@ -2,6 +2,10 @@ from django.contrib import admin
 from .models import *
 # Register your models here.
 
+@admin.register(StoreLocation)
+class StoreLocationAdmin(admin.ModelAdmin):
+    list_display = ('name','address',)
+
 @admin.register(Language)
 class LanguageAdmin(admin.ModelAdmin):
     list_display = ('name','code','status','sort_order')
